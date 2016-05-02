@@ -1,0 +1,7 @@
+# Jenkins, Services, mnt.lab
+dn: cn=Jenkins,ou=Services,dc=mnt,dc=lab
+cn: Jenkins
+member: uid=ivan_balandzin,ou=People,dc=mnt,dc=lab
+member: uid=test_user,ou=People,dc=mnt,dc=lab
+objectClass: groupOfNames
+objectClass: top

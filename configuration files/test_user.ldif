@@ -1,0 +1,19 @@
+# userinldap, People, mnt.lab
+dn: uid=test_user,ou=People,dc=mnt,dc=lab
+uid: test_user
+homeDirectory: /home/test_user
+loginShell: /bin/bash
+mail: test_user@test_user.com
+uidNumber: 10501
+gidNumber: 10500
+gecos: test user
+cn: test_user
+givenName: test user
+sn: tester
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword: vagrant
